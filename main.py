@@ -1,7 +1,7 @@
 from person import Person
 from responsible_person import ResponsiblePerson
 
-responsible_person = ResponsiblePerson(Person(10))
-print(responsible_person.check_if_drink())
-print(responsible_person.check_if_drive())
-print(responsible_person.check_if_drink_and_drive())
+responsible_person = ResponsiblePerson(Person(18))
+print(responsible_person.drink())
+print(responsible_person.drive())
+print(responsible_person.drink_and_drive())
