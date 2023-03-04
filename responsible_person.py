@@ -12,8 +12,5 @@ class ResponsiblePerson:
         return self.person.drive() if self.person.age >= 16 else "Muito jovem"
 
     def drink_and_drive(self)-> str:
-        if self.drink() == "drinking":
-            return self.person.drink_and_drive() + ", Morto"
-        else:
-            return "Se beber não dirija"
+        return self.person.drink_and_drive() + ", Morto"
 
